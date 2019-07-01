@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+}
+
+.logo::first-letter {
+    color: #1abc9c;
+}
+
+.navigation {
+    float: right;
+}
+
+.nav__item {
+    float: left;
+    list-style: none;
+    font-size: 14px;
+}
+
+.nav__logo {
+    width: 50px;
+    float: left;
+}
+
+.nav__item:not(:last-of-type) {
+    margin-right: 40px;
+}
+
+.nav__navigation {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 11;
+}
+
+.featured_products {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.products__list {
+
+}
+
+.products__item {
+    width: 255px;
+    float: left;
+}
+.products__name {
+    float: left;
+}
+.products__cost {
+    float: right;
+}
+
+
+.lifestyle {
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+    position: absolute;
+    left: 284.732px;
+    top: 99.25px;
+    width: 71px;
+    height: 11px;
+    z-index: 70;
+  }
+  
