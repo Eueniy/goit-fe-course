@@ -10,9 +10,8 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="header clearfix">
-      <a class="logo" href="#">Mart</a>
+    <header class="header clearfix container">
+      <a class="logo" href="#"><img src="./img/logo_mart.png" alt="logo"></a>
         <nav class="navigation">
           <ul class="nav__list clearfix">
             <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
@@ -26,31 +25,70 @@
     </header>
 
     <main>
-      <section class="slide__picture">
-        <img src="./img/slide_picture.jpg" alt="slide picture">
-        <h1>Affordable Paris tours</h1>
-        <h3>city tours/tour tickets/tour guides</h3>
-      </section> 
-      <section>
-        <h2>New collection</h2>
-          <div class="line"></div>     
+      <div class="slider">
+        <div class="slide">
+          <img src="./img/slide_picture.jpg" alt="slide picture">
+          <div class="slide__text container">
+            <h1 class="slide__maintext">Affordable Paris tours</h1>
+            <h3 class="slide__comment">city tours/tour tickets/tour guides</h3>
+          </div>
+        </div>
+        <div class="slider__buttons container">
+          <button class="slider__button left__arrow"></button>
+          <button class="slider__button right__arrow"></button>
+        </div>
+      </div> 
+      <section class="production">
+        <h2 class="products__section">New collection</h2>
           <ul class="products__list clearfix container">
             <li class="products__item">
+              <div class="overlay__item">
+                  <div class="overlay__item__buttons">
+                    <button class="item__button button__heart"></button>
+                    <button class="item__button button__share"></button>
+                    <button class="item__button button__clock"></button>
+                    <button class="item__button button__cart">add to cart</button>
+                  </div>
+                </div>     
                 <img class="products__img" src="./img/collection_image_01.jpg" alt="">
                 <h4 class="products__name">blue tshirt</h4>
                 <h4 class="products__cost">$26</h4>
             </li>
             <li class="products__item">
+                <div class="overlay__item">
+                  <div class="overlay__item__buttons">
+                    <button class="item__button button__heart"></button>
+                    <button class="item__button button__share"></button>
+                    <button class="item__button button__clock"></button>
+                    <button class="item__button button__cart">add to cart</button>
+                  </div>
+                </div> 
                 <img class="products__img" src="./img/collection_image_02.jpg" alt="">
                 <h4 class="products__name">woman shirt</h4>
                 <h4 class="products__cost">$31</h4>
             </li>
             <li class="products__item">
+              <div class="overlay__item">
+                  <div class="overlay__item__buttons">
+                    <button class="item__button button__heart"></button>
+                    <button class="item__button button__share"></button>
+                    <button class="item__button button__clock"></button>
+                    <button class="item__button button__cart">add to cart</button>
+                  </div>
+                </div> 
                 <img class="products__img" src="./img/collection_image_03.jpg" alt="">
                 <h4 class="products__name">yellow tshirt</h4>
                 <h4 class="products__cost">$21</h4>
             </li>
             <li class="products__item">
+              <div class="overlay__item">
+                  <div class="overlay__item__buttons">
+                    <button class="item__button button__heart"></button>
+                    <button class="item__button button__share"></button>
+                    <button class="item__button button__clock"></button>
+                    <button class="item__button button__cart">add to cart</button>
+                  </div>
+                </div> 
                 <img class="products__img" src="./img/collection_image_04.jpg" alt="">
                 <h4 class="products__name">cool lingerie</h4>
                 <h4 class="products__cost">$56</h4>
@@ -58,10 +96,9 @@
           </ul>
       </section>
       <footer class="footer">
-        <h5>All Rights Reserved © Dokan | Designed ThemenGraph</h5> 
+        <h5 class="footer__text">All Rights Reserved © Dokan | Designed <a class="webstudio" href="#"><span class="colortext">ThemenGraph</span></a></h5> 
       </footer>
 
     </main>
-  </div>
 </body>
 </html>
