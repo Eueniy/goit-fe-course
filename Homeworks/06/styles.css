@@ -197,7 +197,7 @@ img {
 
 .team__list__image{
     width: 381px;
-    transition: transform 0.4s linear;
+    transition: transform 0.2s linear;
 }
 
 .team__list__image:hover {
