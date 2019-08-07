@@ -1,0 +1,44 @@
+/* https://google-webfonts-helper.herokuapp.com/fonts/roboto?subsets=latin
+roboto-Slab-400 - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab'), local('Roboto-Slab'),
+    url('../fonts/roboto-slab-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-slab-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+  /* Montserrat-400 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Normal'), local('Montserrat Regular'),
+         url('../fonts/montserrat-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+ 
+/* Montserrat-400 - latin */
+@font-face {
+     font-family: 'Montserrat-bold';
+     font-style: bold;
+     font-weight: 700;
+     src: local('Montserrat Bold'), local('Montserrat-Bold'),
+          url('../fonts/montserrat-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/montserrat-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Droid Serif-400i - latin */
+@font-face {
+     font-family: 'Droid Serif';
+     font-style: italic;
+     font-weight: 400;
+     src: local('Droid Serif'), local('DroidSerif Italic'),
+          url('../fonts/Droid\ Serif\ Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/DroidSerif-Italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+ 
+
+
+ 
