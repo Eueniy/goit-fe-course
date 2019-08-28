@@ -1,0 +1,41 @@
+@media (min-width: 767px) {
+
+  .container {
+    max-width: 768px;
+  }
+
+  .logo {
+    padding: 10px 0 100px 0;
+  }
+
+  .header-maintext {
+    margin: 0 auto;
+    font-size: 52px;
+  }
+  
+  .header-text {
+    font-size: 24px;
+    padding: 10px 0 20px 0;
+  }  
+
+  .item-image {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .container {
+    max-width: 940px;
+  }
+  
+  .item-image {
+    margin: 0;
+  }
+
+  .other-button {
+    padding: 1em 2em;
+  }
+}
+
+
