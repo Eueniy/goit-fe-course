@@ -1,0 +1,15 @@
+.container {
+  width: 1201px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  &-fluid {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+    background-position: center;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+  }
+}

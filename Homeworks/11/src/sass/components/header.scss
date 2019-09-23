@@ -1,0 +1,45 @@
+.header__text {
+  width: 821px;
+  margin: 0 auto;
+  color: $white-color;
+}
+
+.text-1 {
+  font-family: $rubric-font;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header__text-1 {
+  font-size: 72px;
+  padding-bottom: 60px;
+  padding-top: 70px;
+}
+
+.text-2 {
+  font-family: $main-font;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header__text-2 {
+  margin: 0;
+  font-size: 150px;
+  line-height: 140px;
+  padding-bottom: 100px;
+}
+
+.header__button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $white-color;
+  font-family: $main-font;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 3px solid;
+  outline: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}

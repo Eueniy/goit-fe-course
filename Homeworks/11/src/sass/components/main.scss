@@ -1,0 +1,63 @@
+.features__text-1 {
+  font-size: 24px;
+  color: $text-color-1;
+  padding: 45px 0 20px;
+}
+
+.features__text-2 {
+  font-size: 30px;
+  color: $text-color-1;
+  padding-bottom: 60px;
+}
+
+.after::after {
+  display: block;
+  content: '';
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  background: $link-color;
+  margin-top: 40px;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.features__item {
+  flex: 0 0 330px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 50px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.features__item svg {
+  left: 0;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  fill: $bg-color;
+}
+
+.features__name {
+  font-family: $main-font;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 17px;
+  font-weight: 400;
+  color: $text-color-1;
+  padding-bottom: 15px;
+}
+
+.features__about {
+  font-family: $second-font;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $team-text;
+}
